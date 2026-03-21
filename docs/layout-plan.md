@@ -13,6 +13,7 @@ Implemented in [eyelash_corne.keymap](/Users/heman/Downloads/keyboard/zmk-new_co
 - Util
 - base-layer home-row mods
 - thumb layer-taps
+- `nice-view-gem` display integration via `build.yaml`, `west.yml`, and `eyelash_corne.conf`
 
 Not yet completed:
 
