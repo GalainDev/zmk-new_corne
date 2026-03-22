@@ -75,6 +75,22 @@
         };
     };
 
+    macros {
+        mac_screenshot: mac_screenshot {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <30>;
+            tap-ms = <30>;
+            bindings
+                = <&macro_press &kp LGUI>
+                , <&macro_press &kp LEFT_SHIFT>
+                , <&macro_tap &kp N5>
+                , <&macro_release &kp LEFT_SHIFT>
+                , <&macro_release &kp LGUI>
+                ;
+        };
+    };
+
     rgb_encoder: rgb_encoder {
         compatible = "zmk,behavior-sensor-rotate";
         #sensor-binding-cells = <0>;
@@ -87,15 +103,6 @@
         bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
 
         tap-ms = <100>;
-    };
-
-    combos {
-        compatible = "zmk,combos";
-
-        softoff {
-            bindings = <&soft_off>;
-            key-positions = <1 15 29>;
-        };
     };
 
     keymap {
@@ -117,7 +124,7 @@
             display-name = "NAV";
             bindings = <
 &kp ESC    &kp TAB    &kp INS           &kp HOME           &kp END             &kp DEL                          &mmv MOVE_UP                     &trans                  &kp HOME                  &kp PG_DN               &kp PG_UP               &kp END                 &kp DEL
-&kp LGUI   &kp LALT   &kp LCTRL         &kp LEFT_SHIFT     &caps_word          &kp RET               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans                  &kp LEFT                  &kp DOWN                &kp UP                  &kp RIGHT               &kp RET
+&kp LCTRL  &kp LALT   &kp LGUI          &kp LEFT_SHIFT     &caps_word          &kp RET               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans                  &kp LEFT                  &kp DOWN                &kp UP                  &kp RIGHT               &kp RET
 &kp RALT   &kp BSPC   &kp DEL           &kp PG_DN          &kp PG_UP           &trans     &trans                       &mmv MOVE_DOWN                   &trans                  &kp BSPC                  &kp DEL                 &trans                  &trans                  &kp ESC
                                      &kp LGUI  &trans    &mo 2                                                               &mo 3         &kp BSPC  &mo 4
             >;
@@ -129,7 +136,7 @@
             display-name = "NUM";
             bindings = <
 &kp TAB    &kp LBKT   &kp N7            &kp N8             &kp N9              &kp RBKT                         &mmv MOVE_UP                     &trans                  &trans                    &trans                  &trans                  &trans                  &kp BSPC
-&kp LGUI   &kp LALT   &kp LCTRL         &kp LEFT_SHIFT     &kp EQUAL           &trans                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans                  &kp N4                    &kp N5                  &kp N6                  &kp SEMI                &kp RET
+&kp LCTRL  &kp LALT   &kp LGUI          &kp LEFT_SHIFT     &kp EQUAL           &trans                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans                  &kp N4                    &kp N5                  &kp N6                  &kp SEMI                &kp RET
 &kp RALT   &kp GRAVE  &kp N1            &kp N2             &kp N3              &kp BSLH   &trans                       &mmv MOVE_DOWN                   &trans                  &kp MINUS                 &kp N0                  &kp DOT                 &mo 1                   &kp ESC
                                      &kp LGUI  &mo 1     &trans                                                              &mo 3         &kp BSPC  &mo 4
             >;
@@ -154,7 +161,7 @@
             bindings = <
 &bt BT_CLR_ALL   &bt BT_SEL 0       &bt BT_SEL 1      &bt BT_SEL 2       &bt BT_SEL 3     &bt BT_CLR                         &mmv MOVE_UP                     &kp F1                  &kp F2                    &kp F3                  &kp F4                  &kp F5                  &kp F6
 &rgb_ug RGB_OFF  &rgb_ug RGB_ON     &rgb_ug RGB_EFF   &rgb_ug RGB_EFR    &rgb_ug RGB_BRI  &rgb_ug RGB_BRD        &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F7                  &kp F8                    &kp F9                  &kp F10                 &kp F11                 &kp F12
-&out OUT_USB     &out OUT_BLE       &studio_unlock    &bootloader        &sys_reset       &kp C_MUTE   &kp C_PP                    &mmv MOVE_DOWN                   &kp PRINTSCREEN         &kp SCROLLLOCK            &soft_off               &kp INS                 &kp DEL                 &kp ESC
+&out OUT_USB     &out OUT_BLE       &studio_unlock    &bootloader        &sys_reset       &kp C_MUTE   &kp C_PP                    &mmv MOVE_DOWN                   &mac_screenshot         &kp SCROLLLOCK            &soft_off               &kp INS                 &kp DEL                 &kp ESC
                                            &kp LGUI  &mo 1           &mo 2                                                             &mo 3          &kp BSPC  &kp RALT
             >;
 

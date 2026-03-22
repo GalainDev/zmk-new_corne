@@ -24,7 +24,7 @@ If you need a 3D model of this keyboard, email `380465425@qq.com`.
 
 - `BASE`: normal typing, home-row mods, thumb access to the main layers
 - `NAV`: arrows, page movement, insert/delete, and mouse on the 5-way switch
-- `NUM`: Miryoku-style numbers, plain modifiers on the left home row, and a path into `NAV`
+- `NUM`: numbers, plain macOS-style modifiers on the left home row, and a path into `NAV`
 - `CODE`: rolls-first coding symbols for brackets, operators, and punctuation
 - `UTIL`: Bluetooth, RGB, output switching, bootloader/reset, and function keys
 
@@ -107,6 +107,7 @@ Other `UTIL` keys:
 
 - `F1` to `F12`: function keys
 - `Mute`: consumer mute key
+- `macOS Screenshot`: sends `Command + Shift + 5`
 - `Soft Off`: deep sleep for transport; wake by pressing the physical `reset` button once
 - encoder rotate on `UTIL`: RGB brightness
 - encoder press on `UTIL`: play/pause
@@ -134,8 +135,7 @@ Board-specific behavior:
 
 This keyboard supports a firmware deep-sleep mode called `Soft Off`.
 
-- `Soft Off` is now available on the `UTIL` layer
-- the older seller combo is `Q + S + Z` held for about 2 seconds
+- `Soft Off` is available on the `UTIL` layer
 - after entering `Soft Off`, the keyboard will not wake from keypresses
 - wake it by pressing the physical `reset` button once
 

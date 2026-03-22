@@ -284,6 +284,8 @@ parse_config:
       tap: $$mdi:progress-download$$
     "&soft_off":
       tap: SOFT OFF
+    "&mac_screenshot":
+      tap: CMD+SHIFT+5
 
   # ZMK
   zmk_keycode_map:

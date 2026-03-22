@@ -244,7 +244,7 @@ Right side:
 
 - top row: `F1`, `F2`, `F3`, `F4`, `F5`, `F6`
 - home row: `F7`, `F8`, `F9`, `F10`, `F11`, `F12`
-- bottom row: `Print Screen`, `Scroll Lock`, `Soft Off`, `Ins`, `Del`, `Esc`
+- bottom row: `macOS Screenshot`, `Scroll Lock`, `Soft Off`, `Ins`, `Del`, `Esc`
 
 ## Thumb Cluster Plan
 
@@ -326,7 +326,7 @@ Num layer v1 draft:
 Left side:
 
 - top row: `Tab`, `LBKT`, `N7`, `N8`, `N9`, `RBKT`
-- home row: `GUI`, `Alt`, `Ctrl`, `Shift`, `EQUAL`, `Trans`
+- home row: `Ctrl`, `Alt`, `GUI`, `Shift`, `EQUAL`, `Trans`
 - bottom row: `RAlt`, `GRAVE`, `N1`, `N2`, `N3`, `BSLH`
 
 Center hardware on Num:
