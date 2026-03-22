@@ -107,6 +107,7 @@ Other `UTIL` keys:
 
 - `F1` to `F12`: function keys
 - `Mute`: consumer mute key
+- `Soft Off`: deep sleep for transport; wake by pressing the physical `reset` button once
 - encoder rotate on `UTIL`: RGB brightness
 - encoder press on `UTIL`: play/pause
 
@@ -128,3 +129,14 @@ Board-specific behavior:
 - left encoder rotate: volume on `BASE`, scroll on `NAV`/`NUM`/`CODE`, RGB brightness on `UTIL`
 - left encoder press: `Space` on `BASE`
 - right 5-way switch: arrows on `BASE`, mouse movement and click on the other layers
+
+## Transport / Sleep
+
+This keyboard supports a firmware deep-sleep mode called `Soft Off`.
+
+- `Soft Off` is now available on the `UTIL` layer
+- the older seller combo is `Q + S + Z` held for about 2 seconds
+- after entering `Soft Off`, the keyboard will not wake from keypresses
+- wake it by pressing the physical `reset` button once
+
+For long-term storage, use the physical power switches instead of firmware sleep.

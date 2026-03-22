@@ -282,6 +282,8 @@ parse_config:
       tap: $$mdi:backup-restore$$
     "&bootloader":
       tap: $$mdi:progress-download$$
+    "&soft_off":
+      tap: SOFT OFF
 
   # ZMK
   zmk_keycode_map:

@@ -244,7 +244,7 @@ Right side:
 
 - top row: `F1`, `F2`, `F3`, `F4`, `F5`, `F6`
 - home row: `F7`, `F8`, `F9`, `F10`, `F11`, `F12`
-- bottom row: `Print Screen`, `Scroll Lock`, `Pause Break`, `Ins`, `Del`, `Esc`
+- bottom row: `Print Screen`, `Scroll Lock`, `Soft Off`, `Ins`, `Del`, `Esc`
 
 ## Thumb Cluster Plan
 

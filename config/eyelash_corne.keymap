@@ -154,7 +154,7 @@
             bindings = <
 &bt BT_CLR_ALL   &bt BT_SEL 0       &bt BT_SEL 1      &bt BT_SEL 2       &bt BT_SEL 3     &bt BT_CLR                         &mmv MOVE_UP                     &kp F1                  &kp F2                    &kp F3                  &kp F4                  &kp F5                  &kp F6
 &rgb_ug RGB_OFF  &rgb_ug RGB_ON     &rgb_ug RGB_EFF   &rgb_ug RGB_EFR    &rgb_ug RGB_BRI  &rgb_ug RGB_BRD        &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F7                  &kp F8                    &kp F9                  &kp F10                 &kp F11                 &kp F12
-&out OUT_USB     &out OUT_BLE       &studio_unlock    &bootloader        &sys_reset       &kp C_MUTE   &kp C_PP                    &mmv MOVE_DOWN                   &kp PRINTSCREEN         &kp SCROLLLOCK            &kp PAUSE_BREAK         &kp INS                 &kp DEL                 &kp ESC
+&out OUT_USB     &out OUT_BLE       &studio_unlock    &bootloader        &sys_reset       &kp C_MUTE   &kp C_PP                    &mmv MOVE_DOWN                   &kp PRINTSCREEN         &kp SCROLLLOCK            &soft_off               &kp INS                 &kp DEL                 &kp ESC
                                            &kp LGUI  &mo 1           &mo 2                                                             &mo 3          &kp BSPC  &kp RALT
             >;
 
