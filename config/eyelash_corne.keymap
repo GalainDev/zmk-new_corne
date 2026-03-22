@@ -135,9 +135,9 @@
         num_layer {
             display-name = "NUM";
             bindings = <
-&kp TAB    &kp LBKT   &kp N7            &kp N8             &kp N9              &kp RBKT                         &mmv MOVE_UP                     &trans                  &trans                    &trans                  &trans                  &trans                  &kp BSPC
-&kp LCTRL  &kp LALT   &kp LGUI          &kp LEFT_SHIFT     &kp EQUAL           &trans                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans                  &kp N4                    &kp N5                  &kp N6                  &kp SEMI                &kp RET
-&kp RALT   &kp GRAVE  &kp N1            &kp N2             &kp N3              &kp BSLH   &trans                       &mmv MOVE_DOWN                   &trans                  &kp MINUS                 &kp N0                  &kp DOT                 &mo 1                   &kp ESC
+&kp TAB    &kp LBKT   &kp RBKT          &kp GRAVE          &kp EQUAL           &trans                         &mmv MOVE_UP                     &trans                  &kp FSLH                  &kp N7                  &kp N8                  &kp N9                  &kp BSPC
+&kp LCTRL  &kp LALT   &kp LGUI          &kp LEFT_SHIFT     &caps_word          &trans                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS               &kp N4                    &kp N5                  &kp N6                  &kp PLUS                &kp RET
+&kp RALT   &kp BSLH   &kp UNDER         &kp DOT            &kp COMMA           &trans     &trans                       &mmv MOVE_DOWN                   &kp N0                  &kp N1                    &kp N2                  &kp N3                  &kp DOT                 &kp ESC
                                      &kp LGUI  &mo 1     &trans                                                              &mo 3         &kp BSPC  &mo 4
             >;
 

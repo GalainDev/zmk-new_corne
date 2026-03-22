@@ -24,7 +24,7 @@ If you need a 3D model of this keyboard, email `380465425@qq.com`.
 
 - `BASE`: normal typing, home-row mods, thumb access to the main layers
 - `NAV`: arrows, page movement, insert/delete, and mouse on the 5-way switch
-- `NUM`: numbers, plain macOS-style modifiers on the left home row, and a path into `NAV`
+- `NUM`: plain macOS-style modifiers on the left home row and a proper right-hand numpad
 - `CODE`: rolls-first coding symbols for brackets, operators, and punctuation
 - `UTIL`: Bluetooth, RGB, output switching, bootloader/reset, and function keys
 

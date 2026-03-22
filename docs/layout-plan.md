@@ -197,10 +197,30 @@ Notes:
 
 Purpose:
 
-- Miryoku-inspired number layout
-- plain modifiers on home-row positions if needed
+- plain macOS-style modifiers on the left home row
+- a proper one-hand numpad on the right hand
 - easier access to number entry and modifier-plus-number shortcuts
-- preserve a clean path into navigation for future Vim-style count workflows
+- keep Vim-style count entry simple: numbers on `NUM`, then switch to `NAV` for the motion
+
+Num layer v2 direction:
+
+Left side:
+
+- top row: light helpers and bracket/punctuation support
+- home row: `Ctrl`, `Alt`, `GUI`, `Shift`, `Caps Word`, `Trans`
+- bottom row: `RAlt` and low-priority punctuation/helpers
+
+Right side:
+
+- top row: `/`, `7`, `8`, `9`, `Backspace`
+- home row: `-`, `4`, `5`, `6`, `+`, `Enter`
+- bottom row: `0`, `1`, `2`, `3`, `.`, `Esc`
+
+Notes:
+
+- This is no longer the earlier split-number draft.
+- The left hand stays free for `Command`/`Shift`/`Option`/`Control` chording.
+- The right hand now carries the actual numeric workload.
 
 ### Code
 
