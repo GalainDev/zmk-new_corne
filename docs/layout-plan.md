@@ -73,24 +73,24 @@ Other current behaviors:
 
 Recommended v1 assignment:
 
-- left hand: `A=GUI`, `S=Alt`, `D=Ctrl`, `F=Shift`
-- right hand: `J=Shift`, `K=Ctrl`, `L=Alt`, `;=GUI`
+- left hand: `A=Ctrl`, `S=Alt`, `D=GUI`, `F=Shift`
+- right hand: `J=Shift`, `K=GUI`, `L=Alt`, `;=Ctrl`
 
 Notes:
 
-- This is the strict Miryoku-style mirrored assignment for QWERTY.
+- This is the macOS-oriented `CAGS` mirrored assignment for QWERTY.
 - `GUI` remains on the left thumb even though it is also available on the home row.
 - The thumb `GUI` should remain the primary choice for macOS shortcuts that feel awkward with home-row `GUI`.
 - If `GUI` proves too error-prone on the home row, the first rollback should be:
   - `A` back to plain `A`
   - `;` back to plain `;`
-  - keep `S/D/F` and `J/K/L` as `Alt/Ctrl/Shift`
+  - keep `S/D/F` and `J/K/L` as `Alt/GUI/Shift`
 
 Why this is the recommended starting point:
 
-- it keeps the mental model simple
+- it follows the macOS modifier frequency guidance from the home-row-mods guide
 - it preserves symmetry across both hands
-- it lets us test the full HRM approach without removing the safer thumb `GUI`
+- it keeps `Command` on a stronger finger than the pinky
 - it is easy to partially roll back later without redesigning the whole base layer
 
 ### Home-Row Mods
@@ -162,7 +162,7 @@ Home-row modifiers on Nav:
 
 - yes, but use plain modifiers, not home-row mod-taps
 - keep modifiers on the left home row so the right hand can handle navigation
-- starting point: `A=GUI`, `S=Alt`, `D=Ctrl`, `F=Shift`
+- starting point: `A=Ctrl`, `S=Alt`, `D=GUI`, `F=Shift`
 
 Nav layer v1 draft:
 

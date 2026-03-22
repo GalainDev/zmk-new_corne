@@ -1,4 +1,4 @@
-# 睫毛外设 (Eyelash Peripherals) Corne ZMK Repository
+# Eyelash Corne ZMK Repository
 
 **This keyboard is not the same as [foostan's Corne](https://github.com/foostan/crkbd). It will not work with standard `corne` firmware.**
 
@@ -39,10 +39,15 @@ On macOS, the modifiers in the keymap mean:
 
 The base layer uses home-row mods:
 
-- left hand: `A=Command`, `S=Option`, `D=Control`, `F=Shift`
-- right hand: `J=Shift`, `K=Control`, `L=Option`, `;=Command`
+- left hand: `A=Control`, `S=Option`, `D=Command`, `F=Shift`
+- right hand: `J=Shift`, `K=Command`, `L=Option`, `;=Control`
 
-There is also a dedicated `GUI` thumb key, which is usually the easiest `Command` key for macOS shortcuts.
+This follows the macOS-oriented `CAGS` home-row order from the home-row-mods guide:
+
+- `Ctrl < Option < Command < Shift` by usage frequency on macOS
+- stronger fingers get the more common modifiers
+
+There is also a dedicated `GUI` thumb key, which is still the easiest `Command` key for many macOS shortcuts.
 
 ### Common macOS Shortcuts
 
@@ -112,6 +117,7 @@ Some labels in the keymap diagram are easy to miss if you have not used ZMK befo
 - `h:` means the key's hold behavior
 - `s:` means the shifted symbol printed on that key
 - `Trans` means `transparent`, so the key falls through to the layer below
+- `Shift / Caps Lock` means tap or hold for `Shift`, double-tap for `Caps Lock`
 - the `alpha-w-box` icon is `Caps Word`
 - the backspace icon means `Backspace`
 - the reversed backspace icon means `Delete`

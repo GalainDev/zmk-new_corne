@@ -117,6 +117,10 @@ parse_config:
     type: trans
 
   raw_binding_map:
+    "&shift_caps":
+      tap: $$mdi:apple-keyboard-shift$$
+      shifted: CAPS
+      type: tap_dance
     # Layers
     "&ltq 1 BACKSPACE":
       tap:  $$mdi:backspace$$
@@ -134,6 +138,30 @@ parse_config:
       tap: $$mdi:backspace-reverse-outline$$
       hold: $$mdi:navigation-variant$$
     # Home rows
+    "&hrm_left LCTRL A":
+      tap: 'A'
+      shifted: $$mdi:apple-keyboard-control$$
+    "&hrm_left LALT S":
+      tap: 'S'
+      shifted: $$mdi:apple-keyboard-option$$
+    "&hrm_left LGUI D":
+      tap: 'D'
+      shifted: $$mdi:apple-keyboard-command$$
+    "&hrm_left LEFT_SHIFT F":
+      tap: 'F'
+      shifted: $$mdi:apple-keyboard-shift$$
+    "&hrm_right LEFT_SHIFT J":
+      tap: 'J'
+      shifted: $$mdi:apple-keyboard-shift$$
+    "&hrm_right LGUI K":
+      tap: 'K'
+      shifted: $$mdi:apple-keyboard-command$$
+    "&hrm_right LALT L":
+      tap: 'L'
+      shifted: $$mdi:apple-keyboard-option$$
+    "&hrm_right LCTRL SEMI":
+      tap: ';'
+      shifted: $$mdi:apple-keyboard-control$$
     "&hm LEFT_GUI A":
       tap: 'A'
       shifted: $$mdi:apple-keyboard-command$$

@@ -30,9 +30,9 @@
 
 / {
     behaviors {
-        td0: td0 {
+        shift_caps: shift_caps {
             compatible = "zmk,behavior-tap-dance";
-            display-name = "Shift/Caps Lock Tap Dance";
+            display-name = "Shift / Caps Lock";
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
@@ -105,7 +105,7 @@
             display-name = "BASE";
             bindings = <
 &kp TAB    &kp Q                 &kp W                &kp E                 &kp R                  &kp T                           &kp UP                &kp Y                    &kp U                       &kp I                     &kp O                    &kp P                    &kp DEL
-&td0       &hrm_left LGUI A      &hrm_left LALT S     &hrm_left LCTRL D     &hrm_left LEFT_SHIFT F &kp G                &kp LEFT  &kp ENTER  &kp RIGHT  &kp H                    &hrm_right LEFT_SHIFT J    &hrm_right LCTRL K      &hrm_right LALT L      &hrm_right LGUI SEMI    &kp SQT
+&shift_caps  &hrm_left LCTRL A   &hrm_left LALT S     &hrm_left LGUI D      &hrm_left LEFT_SHIFT F &kp G                &kp LEFT  &kp ENTER  &kp RIGHT  &kp H                    &hrm_right LEFT_SHIFT J    &hrm_right LGUI K       &hrm_right LALT L      &hrm_right LCTRL SEMI   &kp SQT
 &kp LCTRL  &kp Z                 &kp X                &kp C                 &kp V                  &kp B      &kp SPACE              &kp DOWN              &kp N                    &kp M                       &kp COMMA                 &kp DOT                  &kp FSLH                &kp ESC
                           &kp LGUI  &th_lt 1 TAB  &th_lt 2 SPACE                                                     &th_lt 3 ENTER  &kp BSPC  &th_lt 4 RALT
             >;
