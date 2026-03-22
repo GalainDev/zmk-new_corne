@@ -160,8 +160,8 @@ layers:
   - )
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - $$mdi:backspace-reverse-outline$$
-  - LGUI
+  - {t: '-', s: _}
+  - $$mdi:apple-keyboard-shift$$
   - '!'
   - ':'
   - {t: '=', s: +}
@@ -173,7 +173,7 @@ layers:
   - '@'
   - '{'
   - '}'
-  - {t: '-', s: _}
+  - {t: '=', s: +}
   - '>'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-option$$
