@@ -235,7 +235,7 @@ layers:
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PRINTSCREEN
   - SCROLLLOCK
-  - PAUSE BREAK
+  - SOFT OFF
   - INS
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:keyboard-esc$$
@@ -247,4 +247,4 @@ layers:
   - {t: '$$mdi:apple-keyboard-option$$', type: held}
 combos:
 - p: [1, 15, 29]
-  k: '&soft_off'
+  k: SOFT OFF
