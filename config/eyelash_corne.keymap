@@ -148,7 +148,7 @@
             display-name = "CODE";
             bindings = <
 &kp TAB    &kp GRAVE  &kp TILDE         &kp HASH           &kp AMPS            &kp PIPE                         &mmv MOVE_UP                     &kp CARET               &kp LPAR                  &kp RPAR                &kp LBKT                &kp RBKT                &kp DEL
-&kp LGUI   &kp EXCL   &kp COLON         &kp EQUAL          &kp UNDER           &kp DLLR             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp AT                   &kp LBRC                  &kp RBRC                &kp EQUAL               &kp GT                  &kp RET
+&kp LGUI   &kp EXCL   &kp COLON         &kp EQUAL          &kp UNDER           &kp DLLR             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp AT                   &kp LBRC                  &kp RBRC                &kp MINUS               &kp GT                  &kp RET
 &kp RALT   &kp PRCNT  &kp QMARK         &kp ASTRK          &kp PLUS            &kp BSLH   &trans                       &mmv MOVE_DOWN                   &kp FSLH                &kp UNDER                 &kp LT                  &kp GT                  &kp DQT                 &kp ESC
                                      &kp LGUI  &mo 1     &mo 2                                                                &trans         &kp BSPC  &mo 4
             >;
