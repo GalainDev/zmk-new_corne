@@ -63,9 +63,9 @@ layers:
   - PG UP
   - END
   - $$mdi:backspace-reverse-outline$$
-  - LGUI
-  - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - LGUI
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:alpha-w-box$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -112,9 +112,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - LGUI
-  - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - LGUI
   - $$mdi:apple-keyboard-shift$$
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -233,7 +233,7 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:play-pause$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - PRINTSCREEN
+  - CMD+SHIFT+5
   - SCROLLLOCK
   - SOFT OFF
   - INS
@@ -245,6 +245,3 @@ layers:
   - {t: CODE, type: held alternate}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:apple-keyboard-option$$', type: held}
-combos:
-- p: [1, 15, 29]
-  k: SOFT OFF
