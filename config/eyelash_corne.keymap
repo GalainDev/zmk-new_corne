@@ -26,8 +26,6 @@
     trigger-period-ms = <16>;
 };
 
-&soft_off { hold-time-ms = <2000>; };
-
 / {
     behaviors {
         shift_caps: shift_caps {
