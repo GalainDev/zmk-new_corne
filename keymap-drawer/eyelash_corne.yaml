@@ -44,9 +44,9 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
   - LGUI
-  - {t: '$$mdi:keyboard-tab$$', h: NAV}
-  - {t: '$$mdi:keyboard-space$$', h: NUM}
-  - {t: '$$mdi:keyboard-return$$', h: CODE}
+  - {t: '$$mdi:keyboard-tab$$', h: NUM}
+  - {t: '$$mdi:keyboard-space$$', h: CODE}
+  - {t: '$$mdi:keyboard-return$$', h: NAV}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:apple-keyboard-option$$', h: UTIL}
   NAV:
@@ -93,9 +93,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-esc$$
   - LGUI
-  - {type: held}
-  - NUM
+  - {t: '$$mdi:transfer$$', type: trans}
   - CODE
+  - {t: NAV, type: held}
   - {t: '$$mdi:backspace$$', type: backspace}
   - UTIL
   NUM:
@@ -142,9 +142,9 @@ layers:
   - {t: ., s: '>'}
   - $$mdi:keyboard-esc$$
   - LGUI
-  - {t: NAV, type: held alternate}
-  - {type: held}
-  - CODE
+  - {t: NUM, type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - NAV
   - {t: '$$mdi:backspace$$', type: backspace}
   - UTIL
   CODE:
@@ -191,9 +191,9 @@ layers:
   - '"'
   - $$mdi:keyboard-esc$$
   - LGUI
-  - {t: NAV, type: held alternate}
-  - {t: NUM, type: held alternate}
-  - {type: held}
+  - NUM
+  - {t: CODE, type: held}
+  - {type: held alternate}
   - {t: '$$mdi:backspace$$', type: backspace}
   - UTIL
   UTIL:
@@ -240,8 +240,8 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:keyboard-esc$$
   - LGUI
-  - {t: NAV, type: held alternate}
   - {t: NUM, type: held alternate}
   - {t: CODE, type: held alternate}
+  - {t: NAV, type: held alternate}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:apple-keyboard-option$$', type: held}
