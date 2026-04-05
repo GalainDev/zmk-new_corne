@@ -11,13 +11,13 @@ manifest:
   projects:
     - name: eyelash_corne
       url: https://github.com/a741725193/zmk-new_corne
-      revision: main
+      revision: a7d93082b24f5b20e710a5db9b0e3141ade229b3
     - name: zmk
       remote: zmkfirmware
-      revision: v0.3.0
+      revision: edf5c0814fd3ea202e43aad2d68fd32e882a518c
       import: app/west.yml
     - name: nice-view-gem
       remote: galaindev
-      revision: v0.3.0
+      revision: 7794ebf7f75d7e16cb05240bcffe6c5a45ef5b44
   self:
     path: config
