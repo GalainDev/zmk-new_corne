@@ -162,19 +162,19 @@ layers:
   - {t: ']', s: '}'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-shift$$
-  - '!'
-  - ':'
-  - {t: '=', s: +}
-  - _
+  - {t: '!', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: ':', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '=', h: LGUI, s: +}
+  - {t: _, h: '$$mdi:apple-keyboard-shift$$'}
   - $
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - '@'
-  - (
-  - )
-  - _
-  - {t: ;, s: ':'}
+  - {t: (, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: ), h: LGUI}
+  - {t: _, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, s: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-option$$
   - '%'
